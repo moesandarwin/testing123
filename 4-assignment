@@ -5,7 +5,7 @@ int main() {
 
     FILE *fptr;
 
-    fptr = fopen("moe.txt", "r");
+    fptr = fopen("worlds.txt", "r");
 
         if (fptr==NULL){
         printf("Error opening file \n");
